@@ -89,8 +89,6 @@ int main(int argc, char *argv[]) {
 			fprintf(stderr, "Failed writing to printer\n");
 			break;
 		}
-
-		fprintf(stderr, "Printed: %d\n", printed);
 	}
 
 	EndPagePrinter(printerHandle);
